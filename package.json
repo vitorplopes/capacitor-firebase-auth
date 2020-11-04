@@ -8,7 +8,7 @@
 		"build": "npm run clean && tsc",
 		"clean": "rimraf ./dist",
 		"watch": "tsc --watch",
-		"prepublishOnly": "npm run build"
+		"prepare": "npm run build"
 	},
 	"author": "Bernardo Baumblatt",
 	"license": "MIT",
